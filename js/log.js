@@ -36,14 +36,14 @@ function CountdownTimer(elm, tl, mes) {
   }
   }
   function CDT() {
-  var tl = new Date('2021/6/05 10:00:00');// ここで日付を指定
+  var tl = new Date('2021/11/6 10:00:00');// ここで日付を指定
   var timer = new CountdownTimer('CDT', tl, '終了しました');
   timer.countDown();
   }
   
   
   function CDT01() {
-  var tl = new Date('2020/5/29 09:59:00');// ここで日付を指定
+  var tl = new Date('2020/11/7 18:59:00');// ここで日付を指定
   var timer = new CountdownTimer('CDT01', tl, '終了しました');
   timer.countDown();
   }
